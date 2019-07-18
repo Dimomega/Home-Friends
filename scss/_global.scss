@@ -1,0 +1,76 @@
+body {
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-font;
+}
+
+h2 {
+  font-family: 'Catamaran';
+  font-weight: 500 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.scrollup {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	display: none;
+	color: #2f2e2e;
+	font-size: 40px;
+	text-align: center;
+}
+ 
+.scrollup:hover {
+	color: #2f2e2e;
+}
+
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+
+.losange {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+
+.losange .los2 {
+  width: 400px;
+  height: 460px;
+  transform: rotate(-45deg) translateY(-74px) !important;
+}
+
+.losange .los1 .los2 img {
+  width: 100%;
+  height: auto;
+}
